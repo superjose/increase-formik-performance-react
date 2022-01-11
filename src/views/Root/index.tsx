@@ -12,7 +12,9 @@ export const Root: React.FC<RootProps> = memo((props) => {
       <BrowserRouter>
         <Link to={"/performant"}>Go To Performant View</Link>
         <br />
+        <br />
         <Link to={"/problematic"}>Go To Problematic View</Link>
+        <br />
         <br />
         <Routes>
           <Route path="/problematic" element={<Problematic />} />
